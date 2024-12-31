@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HomeController {
 	
+	
+	int x;
 	@RequestMapping("/")
 	public String calculat() {
 		return "calculator";
